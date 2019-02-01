@@ -1,0 +1,20 @@
+Inicio Contraseña
+
+	var contraseña
+
+	Escribir "Ingrese Contraseña"
+	leer "contraseña"
+	si contraseña = "IPC1"
+	Escribir "Autenticacion correcta"
+	sino Escribir "Veuelva a ingrese la Contraseña"
+	leer "contraseña"
+		si contraseña = "IPC1"
+		Escribir "Autenticacion correcta"
+		sino Escribir "Veuelva a ingrese la Contraseña"
+		leer "contraseña"
+			si contraseña = "IPC1"
+			Escribir "Autenticacion correcta"
+			sino Escribir "Autenticacion incorrecta"
+		finsi	
+	finsi
+fin

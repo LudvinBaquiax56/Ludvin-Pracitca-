@@ -1,0 +1,27 @@
+Inicio EdadPersona
+
+	var edadPersona
+	var sexo
+	
+	Escribir "Bienvenido"
+	Escribir "Ingrese su edad"
+	Leer (edadPersona)
+	
+	si (edadPersona > 17)
+		Escribir "Tu puedes votar, Vota con Responsabilidad"
+		Escribir "Ingresa tu sexo, Hombre = M	Mujer=F"
+		Leer (sexo)
+		Si (sexo= M)
+			Escribir "Eres Hombre"
+		sino 
+			Si (Sexo=F)
+			Escribir "Eres Mujer"
+			sino 
+			Escribir "Error"
+			finsi
+		finsi
+	sino 
+		Escribir "Lo siento, no puedes votar" 
+	finsi
+
+fin

@@ -1,0 +1,43 @@
+Inicio Promedio
+	var primerNumero
+	var segundoNumero
+	var tercerNumero
+	var cuartoNumero
+	var quintoNumero
+	var sextoNumero
+	var septimoNumero
+	var octavoNumero
+	var novenoNumero
+	var decimoNumero
+	var total
+	var promedio
+
+	Escribir "Bienvenido"
+	Escribir "Ingrese el Primer Numero"
+	Leer (primerNumero)
+	Escribir "Ingrese el Segundo Numero"
+	Leer (segundoNumero)
+	Escribir "Ingrese el Tercer Numero"
+	Leer (TercerNumero)
+	Escribir "Ingrese el Cuarto Numero"
+	Leer (cuartoNumero)
+	Escribir "Ingrese el Quinto Numero"
+	Leer (quintoNumero)
+	Escribir "Ingrese el Sexto Numero"
+	Leer (sextoNumero)
+	Escribir "Ingrese el Septimo Numero"
+	Leer (septimoNumero)
+	Escribir "Ingrese el Octavo Numero"
+	Leer (OctavoNumero)	
+	Escribir "Ingrese el Noveno Numero"
+	Leer (novenoNumero)
+	Escribir "Ingrese el Decimo Numero"
+	Leer (decimoNumero)
+
+	proceso (total= primerNumero + segundoNumero + tercerNumero + cuartoNumero + quintoNumero + sextoNumero + septimoNumero + octavoNumero + novenoNumero + decimoNumero)
+	proceso (promedio=total/10)
+
+	Escribir "El TOTAL es total"
+	Escribir "El PROMEDIO es promedio"
+
+fin
