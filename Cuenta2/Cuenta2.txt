@@ -1,0 +1,17 @@
+Inicio Conteo
+	var numeron
+	var numerom
+
+	Escribir "Bienvenido"
+	Escribir "Ingresa un numero"
+	Leer numerom
+	Escribir 0
+	sumar 0+2
+	Escribir ("numeron")
+	si numeron==numerom
+	Escribir "Hemos llegado al numero
+	si no
+	sumar(numero+2)
+	leer (numeron)
+	finsi
+fin
